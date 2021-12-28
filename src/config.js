@@ -5,9 +5,10 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Squid Friends";
+const description = "A creature constructed of love, magic, and code.";
+const baseUri = "ipfs://QmavqoyFvkxg7bFvG3HXBRtQutCfPiZQkviJ6yQHTKycy4";
+
 
 const solanaMetadata = {
   symbol: "YC",
@@ -21,13 +22,12 @@ const solanaMetadata = {
   ],
 };
 
-// If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
     growEditionSizeTo: 1000,
     layersOrder: [
-      { name: "Background Colors" },
-      { name: "Body Colors" },
+      { name: "Background_Colors" },
+      { name: "Body_Colors" },
       { name: "Body" ,
         options: {
           bypassDNA: true,
@@ -75,13 +75,15 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  creator: "Jordan Morales",
+};
 
 const rarityDelimiter = "#";
 
