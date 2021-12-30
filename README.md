@@ -19,3 +19,9 @@ Original Code Sources
 [CodeSTACKr](https://github.com/codeSTACKr)
 
 [NFTPort API]()
+
+# Additional Utils
+
+- Pulling minted data from NFTPort
+- Json cleaning tool
+- Tool to take ipfsmeta changes from CodeSTACKr and apply to original metadata index
