@@ -90,15 +90,15 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 20,
+  thumbWidth: 100,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
 };
 
 const preview_gif = {
-  numberOfImages: 5,
-  order: "ASC", // ASC, DESC, MIXED
+  numberOfImages: 30,
+  order: "MIXED", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
   delay: 500,
