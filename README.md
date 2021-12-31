@@ -4,9 +4,8 @@
 
 To find out more please visit:
 
-[ Discord](https://discord.com/invite/qh6MWhMJDN)
 
-[ Twitter](https://twitter.com/)
+
 
 [ Website](https://squidfriends.xyz)
 
@@ -15,10 +14,10 @@ To find out more please visit:
 NodeJS
 
 Original Code Sources
-[Hashlips]()
+[Hashlips](https://github.com/HashLips/hashlips_art_engine)
 [CodeSTACKr](https://github.com/codeSTACKr)
 
-[NFTPort API]()
+[NFTPort API](https://www.nftport.xyz/)
 
 # Additional Utils
 
